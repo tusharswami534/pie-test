@@ -10,7 +10,8 @@ const UseEffectTest = () => {
        } , 1000)
     }, [count])
   return (
-    <div className='d-flex justify-content-center align-items-center py-5'>
+    <div className='d-flex flex-column justify-content-center align-items-center py-5'>
+      <h2 className='text-black text-center fw-bold'>UseEffect</h2>
         <p className='text-black text-center use-effect-text font-weight-bold'>{count}</p>
     </div>
   )

@@ -14,6 +14,7 @@ const ForLoopTest = () => {
   }, []);
   return (
     <div>
+      <h2 className='text-center fw-bold'>For Loop</h2>
       <p className='text-center'>{count}</p>
     </div>
   )

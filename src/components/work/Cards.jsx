@@ -10,6 +10,7 @@ setSearchParams({ card: card.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase() });
   return (
     <>
     <div className='container row row-gap-4  mx-auto'>
+      <h2 className='text-center fw-bold'>Cards</h2>
         {CARDS_LIST.map((card, i) => (
            <div className='col-lg-4 col-md-6 col-sm-12' key={i}>
  <div onClick={() => handleClick(i, card.heading)} className={`card px-2 ${searchParams.get('card') === card.heading.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase() ? 'bg-black  ' : ''}`}>

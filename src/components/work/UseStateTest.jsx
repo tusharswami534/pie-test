@@ -4,6 +4,7 @@ const UseStateTest = () => {
     const [count , setCount] = useState(0)
   return (
     <div className='d-flex flex-column justify-content-center align-items-center py-5'>
+      <h2 className='text-center fw-bold'>UseState</h2>
         <p>{count}</p>
         <div className='d-flex justify-content-center gap-2 align-items-center'>
         <button className='py-1 px-3 bg-black text-white' onClick={() => setCount(count + 1)}>+</button>
