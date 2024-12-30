@@ -18,7 +18,7 @@ const Product = () => {
       <div className="custom-container">
         <div className="d-flex flex-column flex-xl-row gap-3">
             <div className="product-card">
-              <h1 className="text-white product-heading">Product</h1>
+              <h1 className="text-white common-heading">Product</h1>
               <p className="m-0 text-white common-description">
                 Due to the confusing nature of tax, the lack of awareness of the
                 tax deduction system and the complicated tax refund process, we

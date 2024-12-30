@@ -6,11 +6,11 @@ const UseEffectTest = () => {
 
     useEffect(() => {
        setTimeout(() => {
-              setCount(count + 1 === 101 ? 0 : count + 1)
-       } , 10)
-    }, )
+              setCount(count + 1 === 101 ? 100 :  count + 1)
+       } , 1000)
+    }, [count])
   return (
-    <div className='d-flex justify-content-center align-items-center'>
+    <div className='d-flex justify-content-center align-items-center py-5'>
         <p className='text-black text-center use-effect-text font-weight-bold'>{count}</p>
     </div>
   )
